@@ -6,13 +6,13 @@ class age(){
       println("Your eligible for this job")
     }
     else if(a>28 && a<=120){
-      println("Your age is too high to apply"2)
+      println("Your age is too high to apply")
     }
     else if(a<18 && a>=1){
       println("Your age is too low to apply")
     }
     else{
-      println("Unknown age found")
+      println("Unknown age found & enter correct age")
     }
   }
 }
