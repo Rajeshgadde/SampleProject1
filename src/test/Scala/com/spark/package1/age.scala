@@ -18,7 +18,7 @@ class age(){
 }
 object age {
   def main(args:Array[String])={
-    println("Enter your age ")
+    println("Enter your age correctly:")
     val a=scala.io.StdIn.readInt()
     val obj=new age()
     obj.fun1(a)
